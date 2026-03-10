@@ -84,13 +84,13 @@ All bonus characters share a unified visual style — TMNT green (`#4da640`) but
 
 ### Adding a new character
 
-1. Add a new entry to either `TURTLES` or `BONUS` following the same structure
+1. Add a new entry to either `TURTLES` or `BONUS` following the same structure.
 2. If adding to `BONUS`, also add the key to the appropriate row array in the JSX:
    ```js
    {["metalhead","baxter","venus","casey"].map(key => ( ... ))}
    ```
-3. Choose a `color` and `bg` that work together — `bg` should be a very dark version of `color`
-4. Write the `system` prompt — this is where the character's personality lives
+3. Set color: "#4da640", bg: "#111111", and accent: "#e0e0e0" — all bonus characters share the same TMNT-green dark card / button / background, and white text to keep the second tier visually unified.
+5. Write the `system` prompt — this is where the character's personality lives.
 
 ---
 
